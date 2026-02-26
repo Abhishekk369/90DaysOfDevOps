@@ -1,0 +1,32 @@
+Apps → Shell → Kernel → Hardware
+
+Remember "ASK"
+
+Hardware Layer (bottom): Includes physical hardware. The kernel directly manages these resources.  
+
+Kernel: The core program that communicates with hardware. 
+Shell commands talk to the kernel, which then controls the hardware.  
+
+Shell: Acts as a gateway between you (user) and the kernel. It's a terminal interface where you type shell commands (like mkdir) to instruct the kernel.  
+
+Applications(top): Things like terminal, notepad, browsers, or other programs you run. These send requests through the shell to the kernel. 
+
+
+Commands
+
+free----> shows how much RAM
+
+df-----> disk free
+
+free -h  or df -h
+
+
+ps----> list all process
+ps -a ----> list all active process
+
+top or htop -----> shows cpu usage 1min,5min,15 min with name of process. load average
+
+
+ps aux l(pipe) grep ping 
+
+kill 2514 -----> kills process with PID 2514
